@@ -5,21 +5,308 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> DESAFIO </title>
 </head>
+<style>
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .coluna1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(105, 203, 203);
+        width: 30vw;
+        padding: 7px;
+    }
+
+    .coluna2 {
+        flex-direction: column;
+        display: flex;
+        background-color: ;
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(38, 109, 109);
+        justify-content: space-between;
+    }
+
+    .blocao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        display: flex;
+        background-color: rgb(224, 213, 213);
+        padding: 0.1px;
+        width: 60vw;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        background-color: greenyellow;
+        padding: 1.2%;
+        font-size: 1em;
+    }
+
+    img {
+        width: 15vw;
+        height: 20vh;
+    }
+
+    .img1 {
+        width: 15vw;
+        height: 20vh;
+    }
+
+    .footer {
+        background-color: rgb(38, 109, 109);
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .junt {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+
+    }
+
+    .paralax {
+        background-image: url("tec1.jpeg");
+        min-height: 50vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    @media only screen and (min-width:480px) and (max-width:768px) {
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .coluna1 {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(105, 203, 203);
+            width: 30vw;
+        }
+
+        .coluna2 {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .titulo {
+            display: flex;
+            height: 15vh;
+            flex-direction: row;
+            background-color: rgb(38, 109, 109);
+            justify-content: space-between;
+        }
+
+        .blocao {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .conteudo {
+            flex-direction: column;
+            display: flex;
+            background-color: rgb(224, 213, 213);
+            padding: 5px;
+            width: 80vw;
+            font-size: 1.7em;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            background-color: greenyellow;
+            padding: 1.2%;
+        }
+
+        h1 {
+            font-size: 1.8em;
+        }
+
+        p {
+            width: 65vw;
+        }
+
+        img {
+            width: 18vw;
+            height: 15vh;
+        }
+
+        .img1 {
+            width: 25vw;
+            height: 30vh;
+        }
+
+        .footer {
+            background-color: rgb(38, 109, 109);
+        }
+
+        .junt {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 15px;
+        }
+
+    }
+
+
+
+
+    @media only screen and (max-width:480px) {
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .coluna1 {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(105, 203, 203);
+            width: 25vw;
+        }
+
+        .coluna2 {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .titulo {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(38, 109, 109);
+            height: 10vh;
+            justify-content: space-between;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        ul {
+            font-size: 1em;
+        }
+
+        .blocao {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            font-size: 0.8em;
+            padding: 5px;
+        }
+
+        /* Não conseguimos alinhar o texto, esta passando da tela */
+        .conteudo {
+            flex-direction: column;
+            display: flex;
+            background-color: rgb(224, 213, 213);
+            padding: 5px;
+            width: 80vw;
+            font-size: 1.4em;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            background-color: greenyellow;
+            padding: 1.2%;
+        }
+
+        img {
+            width: 20vw;
+            height: 15vh;
+        }
+
+        .img1 {
+            width: 38vw;
+            height: 25vh;
+        }
+
+        .footer {
+            background-color: rgb(38, 109, 109);
+        }
+
+        .junt {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 20px;
+
+        }
+
+    }
+</style>
+</head>
+
+
+
 <body>
-    <p>
-        Julia Piazzoli
-    </p>
-    <p>
-        Giovanna Ferreira
-    </p>
-    <p>
-        Clara Duarte
-    </p>
-    <p> 
-        Kamilly Barra 
-    </p>
-    <p>
-        Bianca cunha 
-    </p>
+<nav class="coluna1">
+    <h2> NAVEGAÇÃO</h2>
+    <ul>
+        <li> <a href="https://canaltech.com.br/">Canaltech</a> </li>
+        <li> <a href="https://meiobit.com/">Meio Bit</a> </li>
+        <li> <a href="https://gizmodo.uol.com.br/">Gizmodo</a> </li>
+    </ul>
+</nav>
+<section class="coluna2">
+    <header class="titulo">
+        <img class="img" src="tec1.jpeg">
+        <h1>TECNOLOGIA</h1>
+        <img src="tec2.jpeg">
+    </header>
+    <section class="paralax"></section>
+    <section class="blocao">
+        <article class="conteudo">
+            <h2>CONTEÚDO</h2>
+            <section class="junt">
+                <img class="img1" src="tec3.jpeg">
+                <P style="padding: 9px;">A tecnologia pode ser usada para produzir bens ou serviços, realizar
+                    objetivos, como investigações
+                    científicas, ou embutida em máquinas para permitir a sua operação sem conhecimento detalhado do
+                    funcionamento. A tecnologia também pode ser um sistema que contém equipamentos, programas,
+                    pessoas,
+                    processos, organização e finalidade de propósito, através do qual a sociedade satisfaz as
+                    necessidades e desejos dos seus membros.
+                </P>
+            </section>
+            <p> A Revolução Industrial, que começou na Inglaterra no século XVIII e se expandiu para outros países,
+                incluindo o Brasil, durante o século XIX. As principais inovações desse período foram o emprego do
+                aço, a utilização da energia elétrica e dos combustíveis derivados do petróleo, a invenção do motor
+                à explosão, da locomotiva a vapor e o desenvolvimento de produtos químicos.
+            </P>
+        </article>
+        <aside>
+            <h3>PROMOÇÕES</h3>
+            <ol>
+                <li>Celular LG Ultra Wide - R$2999,00</li>
+                <li>Computador Dell 23 - R$1999,00</li>
+                <li>Notebook Samsung Ultra Smash Wide Top - R$3799,00</li>
+                <li>Tablet LG para crianças - R$299,00</li>
+            </ol>
+        </aside>
+    </section>
+    <footer class="footer">
+        <p>Telefone: (+11) 11001-10001 | Endereço: Rua da Tecnologia Nº101 - Bairro da Samsung</p>
+        <p>Email: instrucoesvetorexemplo@hotmail.com</p>
+    </footer>
+</section>
 </body>
+
 </html>
+
