@@ -1,0 +1,98 @@
+body {
+    background-color: whitesmoke;
+}
+
+.nav {
+    flex-direction: row;
+    display: flex;
+}
+.Menu {
+    background-color: #9FD0A2;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50vw;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Menu:hover {
+    background-color: #DA0063;
+}
+
+.parallax {
+     
+    background-image: url("Parallax_Meiose.png");
+    height: 30vh;
+    width: 93vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.textexplic {
+    width: 90vw;
+    height: 10vh;
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #DA0063;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+}
+
+.info1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 40vw;
+    height: 24vh;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    background-color:#9FD0A2;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.inter {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 5%;
+}
+.img2 {
+    width: 50vw;
+    height: 65vh;
+}
+.rod {
+    background-color: #DA0063;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    border: solid 5px #DA0063;
+    border-radius: 10px;
+}
