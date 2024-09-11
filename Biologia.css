@@ -1,0 +1,52 @@
+body{
+    background-color: whitesmoke;
+}
+  
+.Menu {
+    background-color:#9FD0A2;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Menu:hover {
+    background-color:#DA0063;
+}
+  
+.Cont_Menu {
+    color: rgb(0, 0, 0);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+  
+#Prófase I {background-color: red;}
+#Metáfase I {background-color: green;}
+#Anáfase I {background-color: blue;}
+#Telófase I {background-color: orange;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 30vw;
+    height: 38vh;
+    align-items:center;
+}
