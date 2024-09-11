@@ -1,9 +1,9 @@
-body{
+body {
     background-color: whitesmoke;
 }
-  
+
 .Menu {
-    background-color:#9FD0A2;
+    background-color: #9FD0A2;
     color: white;
     float: left;
     border: none;
@@ -13,24 +13,44 @@ body{
     font-size: 17px;
     width: 25%;
     font-family: 'Times New Roman', Times, serif;
+    width: 48vw;
 }
+
 .Menu:hover {
-    background-color:#DA0063;
+    background-color: #DA0063;
 }
-  
+
 .Cont_Menu {
     color: rgb(0, 0, 0);
     display: none;
     padding: 100px 20px;
     height: 100%;
 }
-  
-#Prófase I {background-color: red;}
-#Metáfase I {background-color: green;}
-#Anáfase I {background-color: blue;}
-#Telófase I {background-color: orange;}
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    justify-content: center;
+}
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    justify-content: center;
+    background-color:#9FD0A2;
+    padding:1% ;
+}
+
+p {
+    background-color: #DA0063;
+    padding: 4%;
+}
+
+.textexplic {
+    width: 33vw;
+    height: 50vh;
+    justify-content: center;
+}
 
 
 
@@ -48,5 +68,5 @@ body{
 img {
     width: 30vw;
     height: 38vh;
-    align-items:center;
+    align-items: center;
 }
