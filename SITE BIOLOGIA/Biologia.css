@@ -5,13 +5,12 @@ body {
 .Menu {
     background-color: #9FD0A2;
     color: white;
-    float: left;
+    flex-direction: row;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 14px;
     font-size: 17px;
-    width: 25%;
     font-family: 'Times New Roman', Times, serif;
     width: 48vw;
 }
@@ -20,12 +19,6 @@ body {
     background-color: #DA0063;
 }
 
-.Cont_Menu {
-    color: rgb(0, 0, 0);
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,26 +40,13 @@ p {
 }
 
 .textexplic {
-    width: 33vw;
-    height: 50vh;
-    justify-content: center;
+    width: 45vw;
+    height: 10vh;
+    text-align: justify;
+    padding: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 img {
-    width: 30vw;
-    height: 38vh;
-    align-items: center;
+    width: 40vw;
+    height: 24vh;
 }
