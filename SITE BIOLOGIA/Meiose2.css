@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+}
+.flex {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.nav {
+    flex-direction: column;
+    display: flex;
+}
+.Menu {
+    background-color: #9FD0A2;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 48vw;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.Menu:hover {
+    background-color: #DA0063;
+}
+.img1 {
+    width: 40vw;
+    height: 24vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+.rod {
+    background-color: #DA0063;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    border: solid 5px #DA0063;
+    border-radius: 10px;
+}
