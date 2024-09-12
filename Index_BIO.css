@@ -105,10 +105,9 @@ h2 {
     text-align: center;
     border: solid 5px #DA0063;
     border-radius: 10px;
-    width: 99vw;
+    width: 97vw;
     margin-right: 2%;
 }
-
 
 @media screen and (min-width: 470px) and (max-width: 768px) {
     .img1 {
