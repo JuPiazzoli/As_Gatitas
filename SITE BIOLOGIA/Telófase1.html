@@ -5,91 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TELÓFASE I </title>
-    <style>
-        body {
-            background-color: whitesmoke;
-        }
+</head>
+<style>
+    body {
+        background-color: whitesmoke;
+    }
+    .naveg {
+    flex-direction: row;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.Menu {
+        background-color: #9FD0A2;
+        color: rgb(0, 0, 0);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        width: 48vw;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+.flex {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+.nav {
+        flex-direction: column;
+        display: flex;
+        margin-top: -4%;
+    }
+.img1 {
+        width: 40vw;
+        height: 24vh;
+        padding-bottom: 60px;
+        background-color: whitesmoke;
+    }
+.flex2 {
+        flex-direction: column;
+        display: flex;
+        text-align: justify;
+        width: 85vw;
+        padding: 10px;
+        margin-left: 5%;
+        align-items: center;
+        background-color: #DA0063;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    } 
+.img {
+        width: 52vw;
+        height: 42vh;
+        padding: 10px;
+        padding-top: 50px;
+    }  
+.flex3 {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+.rod {
+    background-color: #9FD0A2;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    border: solid 5px #9FD0A2;
+    border-radius: 10px;
+}
 
-        .naveg {
-            flex-direction: row;
-            display: flex;
-            margin-left: 2%;
-            margin-right: 2%;
-        }
+@media screen and (max-width: 768px) {
+    .flex3 {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: nowrap; */
+    }
+    .img {
+        width: 52vw;
+        height: 42vh;
+        padding: 10px;
+        padding-top: 50px;
+        padding-left: 120px;
+    }  
+}
+</style>
 
-        .Menu {
-            background-color: #9FD0A2;
-            color: rgb(0, 0, 0);
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px;
-            font-size: 1.5em;
-            font-family: 'Times New Roman', Times, serif;
-            width: 48vw;
-            border-radius: 10px;
-            text-decoration: none;
-            text-align: center;
-        }
-
-        .flex {
-            flex-direction: row;
-            display: flex;
-            justify-content: space-around;
-            margin-top: 5%;
-        }
-
-        .nav {
-            flex-direction: column;
-            display: flex;
-            margin-top: -4%;
-        }
-
-        .img1 {
-            width: 40vw;
-            height: 24vh;
-            padding-bottom: 60px;
-            background-color: whitesmoke;
-        }
-
-        .flex2 {
-            flex-direction: column;
-            display: flex;
-            text-align: justify;
-            width: 85vw;
-            padding: 10px;
-            margin-left: 5%;
-            align-items: center;
-            background-color: #DA0063;
-            font-size: 1.5em;
-            font-family: 'Times New Roman', Times, serif;
-            border-radius: 10px;
-        }
-
-        .img {
-            width: 52vw;
-            height: 42vh;
-            padding: 10px;
-            padding-top: 50px;
-        }
-
-        .flex3 {
-            flex-direction: row;
-            display: flex;
-            justify-content: space-between;
-            /* flex-wrap: nowrap; */
-        }
-
-        .rod {
-            background-color: #9FD0A2;
-            color: rgb(0, 0, 0);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 1em;
-            text-align: center;
-            border: solid 5px #9FD0A2;
-            border-radius: 10px;
-        }
-    </style>
 </head>
 
 <body>
