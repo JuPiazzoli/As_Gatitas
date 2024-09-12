@@ -6,6 +6,7 @@ body {
     flex-direction: row;
     display: flex;
 }
+
 .Menu {
     background-color: #9FD0A2;
     color: rgb(0, 0, 0);
@@ -26,7 +27,7 @@ body {
 }
 
 .parallax {
-     
+
     background-image: url("Parallax_Meiose.png");
     height: 30vh;
     width: 93vw;
@@ -52,7 +53,7 @@ body {
 }
 
 
-.audio{
+.audio {
     margin-top: 6%;
     margin-left: 40%;
 }
@@ -75,7 +76,7 @@ h2 {
     color: black;
     text-align: center;
     justify-content: center;
-    background-color:#9FD0A2;
+    background-color: #9FD0A2;
     border-radius: 10px;
     padding: 2px;
 }
@@ -90,10 +91,12 @@ h2 {
     color: black;
     margin-left: 5%;
 }
+
 .img2 {
     width: 50vw;
     height: 65vh;
 }
+
 .rod {
     background-color: #DA0063;
     color: rgb(0, 0, 0);
@@ -107,9 +110,9 @@ h2 {
 }
 
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 470px) and (max-width: 768px) {
     .img1 {
-        width: 50vw;
+        width: 60vw;
         height: 20vh;
     }
 
@@ -124,7 +127,7 @@ h2 {
         font-size: 1.2em;
         font-family: 'Times New Roman', Times, serif;
         border-radius: 10px;
-    
+
     }
 
     .inter {
@@ -157,13 +160,13 @@ h2 {
         border-radius: 10px;
     }
 
-    .audio{
+    .audio {
         margin-top: 6%;
         margin-left: 20%;
     }
 
     .parallax {
-     
+
         background-image: url("Parallax_Meiose.png");
         height: 40vh;
         width: 93vw;
@@ -173,5 +176,5 @@ h2 {
         background-size: cover;
         border-radius: 10px;
     }
-    
+
 }

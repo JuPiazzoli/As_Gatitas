@@ -1,16 +1,19 @@
 body {
     background-color: whitesmoke;
 }
+
 .flex {
     flex-direction: row-reverse;
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
 }
+
 .nav {
     flex-direction: column;
     display: flex;
 }
+
 .Menu {
     background-color: #9FD0A2;
     color: rgb(0, 0, 0);
@@ -25,9 +28,11 @@ body {
     text-decoration: none;
     text-align: center;
 }
+
 .Menu:hover {
     background-color: #DA0063;
 }
+
 .img1 {
     width: 40vw;
     height: 24vh;
@@ -35,6 +40,7 @@ body {
     padding-bottom: 50px;
     background-color: whitesmoke;
 }
+
 .rod {
     background-color: #DA0063;
     color: rgb(0, 0, 0);
@@ -45,14 +51,15 @@ body {
     border-radius: 10px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 470px) and (max-width: 768px) {
     .img1 {
         width: 45vw;
-        height: 16vh;
-        padding-top: 95px;
+        height: 13vh;
+        padding-top: 140px;
         padding-bottom: 50px;
         background-color: whitesmoke;
     }
+
     .Menu {
         background-color: #9FD0A2;
         color: rgb(0, 0, 0);
@@ -67,4 +74,4 @@ body {
         text-decoration: none;
         text-align: center;
     }
-}   
+}
