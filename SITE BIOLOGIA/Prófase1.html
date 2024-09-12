@@ -1,158 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> PROFÁSE I</title>
     <style>
-    body {
-        background-color: whitesmoke;
-    }
-    .flex {
-        flex-direction: row;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 5%;
-    }
-    .nav {
-        flex-direction: column;
-        display: flex;
-        margin-top: -4%;
-    }
-    .naveg {
-    flex-direction: row;
-    display: flex;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-    .Menu {
-        background-color: #9FD0A2;
-        color: rgb(0, 0, 0);
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px;
-        font-size: 1.5em;
-        font-family: 'Times New Roman', Times, serif;
-        width: 48vw;
-        border-radius: 10px;
-        text-decoration: none;
-        text-align: center;
-    }
+        body {
+            background-color: whitesmoke;
+        }
+
+        .flex {
+            flex-direction: row;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5%;
+        }
+
+        .nav {
+            flex-direction: column;
+            display: flex;
+            margin-top: -4%;
+        }
+
+        .naveg {
+            flex-direction: row;
+            display: flex;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        .Menu {
+            background-color: #9FD0A2;
+            color: rgb(0, 0, 0);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            width: 48vw;
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
         .Menu:hover {
-        background-color: #DA0063;
-    }
-    .img1 {
-        width: 40vw;
-        height: 24vh;
-        padding-bottom: 60px;
-        background-color: whitesmoke;
-    }
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .flex2 {
-        flex-direction: column;
-        display: flex;
-        text-align: justify;
-        width: 85vw;
-        padding: 10px;
-        margin-left: 5%;
-        align-items: center;
-        background-color: #DA0063;
-        border-radius: 10px;
-        font-size: 1.5em;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .flex3 {
-        flex-direction: row;
-        display: flex;
-        justify-content: space-between;
-    }
-    .img2 {
-        width: 20vw; 
-        height: 20vh;
-    }
-    .mag {
-    margin-left: 5%; 
-    margin-right: 5%; 
-    text-align: justify;
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-    }
-    .imglep {
-        width: 16vw; height: 24vh;
-        padding-left: 5px;
-        padding-top: 30px;
-        
-    }
-    .imgzig {
-        width: 22vw; height: 25vh;
-        padding: 15px;
-        padding-top: 40px;
-    }
-    .imgpaq {
-        width: 20vw; height: 25vh;
-        padding: 10px;
-        padding-top: 50px;
-    }
-    .imgdip {
-        width: 22vw; height: 25vh;
-        padding: 10px;
-        padding-top: 60px;
-    }
-    .imgdia {
-        width: 19vw; height: 26vh;
-        padding: 10px;
-        padding-top: 60px;
-    }
-    .rod {
-    background-color: #9FD0A2;
-    color: rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
-    text-align: center;
-    border: solid 7px #9FD0A2;
-    border-radius: 10px;
-    }
+            background-color: #DA0063;
+        }
+
+        .img1 {
+            width: 40vw;
+            height: 24vh;
+            padding-bottom: 60px;
+            background-color: whitesmoke;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .flex2 {
+            flex-direction: column;
+            display: flex;
+            text-align: justify;
+            width: 85vw;
+            padding: 10px;
+            margin-left: 5%;
+            align-items: center;
+            background-color: #DA0063;
+            border-radius: 10px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .flex3 {
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img2 {
+            width: 20vw;
+            height: 20vh;
+        }
+
+        .mag {
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: justify;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .imglep {
+            width: 16vw;
+            height: 24vh;
+            padding-left: 5px;
+            padding-top: 30px;
+
+        }
+
+        .imgzig {
+            width: 22vw;
+            height: 25vh;
+            padding: 15px;
+            padding-top: 40px;
+        }
+
+        .imgpaq {
+            width: 20vw;
+            height: 25vh;
+            padding: 10px;
+            padding-top: 50px;
+        }
+
+        .imgdip {
+            width: 22vw;
+            height: 25vh;
+            padding: 10px;
+            padding-top: 60px;
+        }
+
+        .imgdia {
+            width: 19vw;
+            height: 26vh;
+            padding: 10px;
+            padding-top: 60px;
+        }
+
+        .rod {
+            background-color: #9FD0A2;
+            color: rgb(0, 0, 0);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1em;
+            text-align: center;
+            border: solid 7px #9FD0A2;
+            border-radius: 10px;
+        }
     </style>
 </head>
+
 <body>
 
     <nav class="naveg">
-        <a class="Menu" href= "Meiose1.html">  MEIOSE I </a>
-        <a class="Menu" href= "Meiose2.html" > MEIOSE II </a>
+        <a class="Menu" href="Meiose1.html"> MEIOSE I </a>
+        <a class="Menu" href="Meiose2.html"> MEIOSE II </a>
     </nav>
     <br>
     <section class="flex">
         <nav class="nav">
-            <a class="Menu" href= "Prófase1.html" > PRÓFASE I </a>
+            <a class="Menu" href="Prófase1.html"> PRÓFASE I </a>
             <br>
-            <a class="Menu" href= "Metafase1.html"> METÁFASE I </a>
+            <a class="Menu" href="Metafase1.html"> METÁFASE I </a>
             <br>
-            <a class="Menu" href= "" > ANÁFASE I </a>
+            <a class="Menu" href="Anafase1.html"> ANÁFASE I </a>
             <br>
-            <a class="Menu" href= "Telófase1.html" > TELÓFASE I </a>
+            <a class="Menu" href="Telófase1.html"> TELÓFASE I </a>
         </nav>
-    
+
         <img class="img1" src="MEIOSE.png">
     </section>
 
     <br>
     <br>
-    
+
     <section class="mag">
         <header>
             PRÓFASE I
         </header>
 
         <p>
-            A prófase é o primeiro estágio da meiose, em que os cromossomos se condensam e se tornam visíveis e a membrana nuclear se desintegra. 
+            A prófase é o primeiro estágio da meiose, em que os cromossomos se condensam e se tornam visíveis e a
+            membrana nuclear se desintegra.
             Neste ponto, os cromossomos duplicados formam cromátides-irmãs através do centrômero.
-            O cruzamento ocorre quando os cromossomos homólogos se emparelham para formar tetradas na prófase I da meiose. 
+            O cruzamento ocorre quando os cromossomos homólogos se emparelham para formar tetradas na prófase I da
+            meiose.
             O fuso mitótico começa a se formar ao mesmo tempo, preparando-se para a separação dos cromossomos.
-            <br> 
+            <br>
             Ela é dividida em cinco subetapas, incluindo:
         </p>
     </section>
@@ -164,9 +190,10 @@
                 LEPTÓTENO
                 <br>
                 <br>
-                Nessa fase, os cromossomos se condensam e se tornam visíveis como longos e finos filamentos. 
+                Nessa fase, os cromossomos se condensam e se tornam visíveis como longos e finos filamentos.
                 <br>
-                Cada cromossomo consiste em uma única cromátide e começa a se associar com seu homólogo — um cromossomo semelhante herdado do pai e outro da mãe.
+                Cada cromossomo consiste em uma única cromátide e começa a se associar com seu homólogo — um cromossomo
+                semelhante herdado do pai e outro da mãe.
             </p>
             <img class="imglep" src="Prófase I (Leptóteno).png">
         </section>
@@ -178,12 +205,15 @@
                 ZIGÓTENO
                 <br>
                 <br>
-                Durante a sinapse, que ocorre na fase do zigóteno da meiose, os cromossomos homólogos se alinham e se emparelham. 
-                Esse processo permite a recombinação genética (crossing-over), onde partes do DNA são trocadas entre os cromossomos, gerando diversidade genética. 
+                Durante a sinapse, que ocorre na fase do zigóteno da meiose, os cromossomos homólogos se alinham e se
+                emparelham.
+                Esse processo permite a recombinação genética (crossing-over), onde partes do DNA são trocadas entre os
+                cromossomos, gerando diversidade genética.
                 <br>
-                Além disso, a sinapse garante a correta separação dos cromossomos nas fases seguintes da meiose, evitando problemas genéticos nas células-filhas.
+                Além disso, a sinapse garante a correta separação dos cromossomos nas fases seguintes da meiose,
+                evitando problemas genéticos nas células-filhas.
             </p>
-            <img  class="imgzig" src="Prófase I (Zigóteno).png">
+            <img class="imgzig" src="Prófase I (Zigóteno).png">
         </section>
 
         <br>
@@ -193,8 +223,9 @@
                 PAQUÍTENO
                 <br>
                 <br>
-                O crossing-over efetivo ocorre no paquíteno. 
-                Os quiasmas, ou pontos de troca de material genético, são visíveis durante o paquíteno, quando os cromossomos homólogos emparelhados estão bem condensados. 
+                O crossing-over efetivo ocorre no paquíteno.
+                Os quiasmas, ou pontos de troca de material genético, são visíveis durante o paquíteno, quando os
+                cromossomos homólogos emparelhados estão bem condensados.
                 <br>
                 Ao trocar segmentos entre os cromossomos homólogos, esse processo aumenta a variabilidade genética.
             </p>
@@ -208,9 +239,13 @@
                 DIPLÓTENO
                 <br>
                 <br>
-                O diplóteno é quando os cromossomos começam a se separar, mas permanecem conectados nos quiasmas onde ocorrem as trocas de material genético. 
+                O diplóteno é quando os cromossomos começam a se separar, mas permanecem conectados nos quiasmas onde
+                ocorrem as trocas de material genético.
                 <br>
-                Após a desintegração da estrutura do complexo sinaptonêmico (estrutura tripartida, com elemento central e dois laterais - O elemento central une os dois elementos laterais entre si, cada cromossomo homólogo duplicado associa-se a um elemento lateral), os cromossomos permanecem visíveis como pares conectados em alguns pontos.
+                Após a desintegração da estrutura do complexo sinaptonêmico (estrutura tripartida, com elemento central
+                e dois laterais - O elemento central une os dois elementos laterais entre si, cada cromossomo homólogo
+                duplicado associa-se a um elemento lateral), os cromossomos permanecem visíveis como pares conectados em
+                alguns pontos.
             </p>
             <img class="imgdip" src="Prófase I (Diplóteno).png">
         </section>
@@ -222,9 +257,12 @@
                 DIACINESE
                 <br>
                 <br>
-                Na fase final da prófase I, conhecida como diacinese, os cromossomos continuam a se condensar, ficando mais compactos e preparados para a separação.
+                Na fase final da prófase I, conhecida como diacinese, os cromossomos continuam a se condensar, ficando
+                mais compactos e preparados para a separação.
                 <br>
-                Ao mesmo tempo, a carioteca, ou membrana nuclear, começa a se desintegrar, permitindo que os cromossomos fiquem livres no citoplasma para as etapas subsequentes da meiose. Esse processo é crucial para garantir que os cromossomos se separem corretamente nas próximas fases da divisão celular.
+                Ao mesmo tempo, a carioteca, ou membrana nuclear, começa a se desintegrar, permitindo que os cromossomos
+                fiquem livres no citoplasma para as etapas subsequentes da meiose. Esse processo é crucial para garantir
+                que os cromossomos se separem corretamente nas próximas fases da divisão celular.
             </p>
             <img class="imgdia" src="Prófase I (Diacinese).png">
         </section>
@@ -237,8 +275,10 @@
         GRUPO 04
         <br>
         <br>
-        Julia Piazzoli, Nº12 / Giovanna Ferreira, Nº07 / Maria C. Duarte, Nº19 / Bianca J. Cunha, Nº04 / Kamilly Barra, Nº13
+        Julia Piazzoli, Nº12 / Giovanna Ferreira, Nº07 / Maria C. Duarte, Nº19 / Bianca J. Cunha, Nº04 / Kamilly Barra,
+        Nº13
     </footer>
 
 </body>
+
 </html>
