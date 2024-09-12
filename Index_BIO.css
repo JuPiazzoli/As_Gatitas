@@ -51,6 +51,13 @@ body {
 
 }
 
+
+.audio{
+    margin-top: 6%;
+    margin-left: 40%;
+}
+
+
 .info1 {
     flex-direction: column;
     display: flex;
@@ -99,17 +106,18 @@ h2 {
     margin-right: 2%;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
     .img1 {
-        width: 40vw;
-        height: 17vh;
+        width: 50vw;
+        height: 20vh;
     }
 
     .textexplic {
         width: 90vw;
-        height: 18vh;
+        height: 33vh;
         text-align: justify;
-        padding: 25px;
+        padding: 40px;
         padding-bottom: 40px;
         background-color: #DA0063;
         color: rgb(0, 0, 0);
@@ -135,17 +143,35 @@ h2 {
     }
 
     .img2 {
-        width: 80vw;
-        height: 74vh;
+        width: 120vw;
+        height: 80vh;
     }
 
     .rod {
         background-color: #DA0063;
         color: rgb(0, 0, 0);
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 0.8em;
+        font-size: 1em;
         text-align: center;
         border: solid 5px #DA0063;
         border-radius: 10px;
     }
+
+    .audio{
+        margin-top: 6%;
+        margin-left: 20%;
+    }
+
+    .parallax {
+     
+        background-image: url("Parallax_Meiose.png");
+        height: 40vh;
+        width: 93vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    
 }
