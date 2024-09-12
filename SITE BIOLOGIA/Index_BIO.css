@@ -95,6 +95,8 @@ h2 {
     text-align: center;
     border: solid 5px #DA0063;
     border-radius: 10px;
+    width: 99vw;
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 768px) {
